@@ -7,10 +7,9 @@ import { Mail, Github, Linkedin, Twitter, Send } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const socialLinks = [
-  { icon: Mail, href: "mailto:hello@johndoe.dev", label: "Email" },
-  { icon: Github, href: "https://github.com", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com", label: "Twitter" },
+  { icon: Mail, href: "mailto:hi@harshmrigank.dev", label: "Email" },
+  { icon: Github, href: "https://github.com/HarshMrigank", label: "GitHub" },
+  { icon: Linkedin, href: "https://www.linkedin.com/in/harsh-mrigank-a29584277/", label: "LinkedIn" },
 ];
 
 const Contact = () => {
@@ -41,10 +40,11 @@ const Contact = () => {
         transition={{ duration: 0.5 }}
         className="max-w-xl mx-auto text-center"
       >
-        <h2 className="section-title">Get in Touch</h2>
-        
+        <h2 className="section-title">Contact</h2>
+
         <p className="text-muted-foreground mb-8">
-          Have a project in mind or just want to say hello? Feel free to reach out.
+          Interested in internships or engineering roles. Email is the fastest way
+          to reach me — I'll reply within a few business days.
         </p>
 
         <form 
@@ -80,7 +80,7 @@ const Contact = () => {
           <Button type="submit" variant="hero" size="lg" className="w-full" disabled={isSubmitting}>
             {isSubmitting ? "Sending..." : (
               <>
-                Send Message
+                Send
                 <Send className="ml-2 h-4 w-4" />
               </>
             )}

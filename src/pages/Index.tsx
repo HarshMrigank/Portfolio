@@ -11,13 +11,13 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>John Doe | Full Stack Developer</title>
+        <title>Harsh Mrigank | Software Engineer</title>
         <meta
           name="description"
-          content="Full Stack Developer specializing in building clean, scalable web applications with modern technologies. View my portfolio and get in touch."
+          content="B.Tech CSE student focused on systems, algorithms and reliable web engineering."
         />
-        <meta name="keywords" content="full stack developer, web developer, react, typescript, portfolio" />
-        <link rel="canonical" href="https://johndoe.dev" />
+        <meta name="keywords" content="software engineer, algorithms, systems, react, typescript, portfolio" />
+        <link rel="canonical" href="https://harshmrigank.dev" />
       </Helmet>
 
       <Navigation />

@@ -5,22 +5,22 @@ const highlights = [
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
+    value: "Kolkata, India",
   },
   {
     icon: Briefcase,
-    label: "Experience",
-    value: "5+ Years",
+    label: "Status",
+    value: "B.Tech CSE student",
   },
   {
     icon: GraduationCap,
-    label: "Education",
-    value: "CS Degree",
+    label: "Institution",
+    value: "Techno Main Salt Lake (MAKAUT)",
   },
   {
     icon: Heart,
-    label: "Passion",
-    value: "Open Source",
+    label: "Interests",
+    value: "Systems, algorithms, competitive problem solving",
   },
 ];
 
@@ -33,7 +33,7 @@ const About = () => {
         viewport={{ once: true, margin: "-50px" }}
         transition={{ duration: 0.5 }}
       >
-        <h2 className="section-title">About Me</h2>
+        <h2 className="section-title">About</h2>
         
         <div className="grid lg:grid-cols-3 gap-12">
           <motion.div 
@@ -44,29 +44,21 @@ const About = () => {
             className="lg:col-span-2 space-y-6 text-muted-foreground leading-relaxed"
           >
             <p className="text-lg">
-              I'm a full stack developer with a passion for building products that make a difference. 
-              With over 5 years of experience in web development, I've worked on everything from 
-              small business websites to large-scale enterprise applications.
+              I approach software engineering with a problem-solving mindset: break problems
+              into clear constraints, validate assumptions, and iterate until there is a
+              correct, maintainable solution.
             </p>
-            
+
             <p className="text-lg">
-              My journey into programming started when I built my first website at 15. Since then, 
-              I've been fascinated by the intersection of design and technology. I believe that 
-              great software is not just about functionality—it's about creating experiences that 
-              feel intuitive and delightful.
+              As a B.Tech CSE student, I focus on systems, data structures, and algorithms.
+              I value clarity, consistency, and small, measurable improvements in code and
+              architecture.
             </p>
-            
+
             <p className="text-lg">
-              My focus is on writing clean, efficient code and creating seamless user experiences. 
-              I specialize in React and Node.js ecosystems, but I'm always eager to learn new 
-              technologies. Currently, I'm exploring the world of AI/ML and how it can enhance 
-              web applications.
-            </p>
-            
-            <p className="text-lg">
-              When I'm not coding, you'll find me contributing to open-source projects, writing 
-              technical articles on my blog, or mentoring aspiring developers. I'm also an avid 
-              reader and enjoy hiking in the mountains on weekends.
+              Chess has influenced how I think about trade-offs and planning — I prefer
+              deliberate moves with long-term value. Outside classwork, I compete in
+              problem-solving challenges and build projects that sharpen practical skills.
             </p>
           </motion.div>
 
