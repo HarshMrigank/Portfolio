@@ -77,21 +77,53 @@ const Hero = () => {
           </motion.div>
 
           <motion.div
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ duration: 0.4, delay: 0.08 }}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.12 }}
             className="order-1 md:order-2 flex justify-center md:justify-end"
           >
-            <div className="relative">
-              <div className="photo-wrap">
-                <img
-                  src="/profile.jpg"
-                  alt="Harsh Mrigank — Software Engineer"
-                  className="photo relative w-72 h-44 md:w-96 md:h-56 object-cover rounded-xl shadow-sm border border-border"
-                />
-              </div>
+            <div
+              className="
+                relative group
+                w-80 md:w-[26rem]
+                h-56 md:h-72
+                rounded-2xl
+                bg-muted/80
+                border border-border
+                shadow-md
+                overflow-hidden
+              "
+            >
+              <img
+                src="/profile.jpg"
+                alt="Harsh Mrigank — Software Engineer"
+                className="
+                  absolute inset-4
+                  w-[calc(100%-2rem)]
+                  h-[calc(100%-2rem)]
+                  object-cover
+                  rounded-xl
+                  border border-border/60
+
+                  transition-all duration-500 ease-out
+
+                  /* Mobile: normal color */
+                  grayscale-0
+
+                  /* Desktop: grayscale + hover takeover */
+                  md:grayscale
+                  md:group-hover:grayscale-0
+                  md:group-hover:inset-0
+                  md:group-hover:w-full
+                  md:group-hover:h-full
+                  md:group-hover:rounded-2xl
+                  md:group-hover:border-0
+                "
+              />
             </div>
           </motion.div>
+
+
         </div>
       </div>
     </section>
