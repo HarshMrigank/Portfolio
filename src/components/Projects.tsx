@@ -10,7 +10,7 @@ const projects = [
     tech: ["C++", "CMake", "Node.js", "Express", "REST APIs"],
     github: "https://github.com/HarshMrigank/HMSCC",
     live: "",
-    image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
+    image: "/hmscc.png",
   },
   {
     title: "Bahhi Khata — Expense Tracker",
@@ -19,7 +19,7 @@ const projects = [
     tech: ["Node.js", "Express", "PostgreSQL", "JWT", "REST APIs"],
     github: "https://github.com/HarshMrigank/BahhiKhata",
     live: "",
-    image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&h=400&fit=crop",
+    image: "/bahikhata.png",
   },
 ];
 
