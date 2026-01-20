@@ -28,8 +28,6 @@ https://mrigankharshportfolio.netlify.app
 ---
 
 ## Structure
-
-```bash
 .
 ├── components/        # Reusable UI components
 ├── pages/             # Application routes
@@ -76,5 +74,3 @@ GitHub: https://github.com/HarshMrigank
 
 LinkedIn: https://www.linkedin.com/in/harsh-mrigank-a29584277
 
-markdown
-Copy code
