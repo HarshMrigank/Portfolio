@@ -19,47 +19,56 @@ const skillCategories = [
     title: "Languages",
     icon: Code2,
     skills: [
+      { name: "C", icon: Braces },
       { name: "C++", icon: Braces },
       { name: "Java", icon: FileCode },
-      { name: "Python", icon: Terminal },
-      { name: "TypeScript", icon: Braces },
+      { name: "JavaScript", icon: Braces },
       { name: "SQL", icon: Database },
     ],
   },
   {
-    title: "Frameworks & Libraries",
-    icon: Boxes,
+    title: "Backend & Web",
+    icon: Server,
     skills: [
-      { name: "React", icon: Boxes },
-      { name: "Next.js", icon: Server },
       { name: "Node.js", icon: Terminal },
-      { name: "Express", icon: Server },
-      { name: "NumPy / pandas", icon: Code2 },
+      { name: "Express.js", icon: Server },
+      { name: "REST APIs", icon: Code2 },
+      { name: "JWT Authentication", icon: Braces },
+      { name: "Middleware", icon: Wrench },
     ],
   },
   {
-    title: "Tools & Platforms",
+    title: "Databases",
+    icon: Database,
+    skills: [
+      { name: "PostgreSQL", icon: Database },
+      { name: "Schema Design", icon: Boxes },
+      { name: "Joins & Indexing", icon: GitBranch },
+      { name: "Constraints & Keys", icon: Braces },
+    ],
+  },
+  {
+    title: "Tools & Systems",
     icon: Wrench,
     skills: [
-      { name: "Git", icon: GitBranch },
-      { name: "Docker", icon: Container },
-      { name: "PostgreSQL", icon: Database },
+      { name: "Git & GitHub", icon: GitBranch },
       { name: "Linux", icon: Terminal },
-      { name: "AWS", icon: Cloud },
+      { name: "Shell Scripting", icon: Terminal },
+      { name: "CMake", icon: Wrench },
     ],
   },
   {
     title: "CS Fundamentals",
-    icon: Database,
+    icon: Boxes,
     skills: [
       { name: "Data Structures & Algorithms", icon: Braces },
-      { name: "System Design", icon: Container },
       { name: "Operating Systems", icon: Server },
-      { name: "Databases", icon: Database },
-      { name: "Concurrency", icon: Wrench },
+      { name: "DBMS", icon: Database },
+      { name: "OOP", icon: FileCode },
     ],
   },
 ];
+
 
 const Skills = () => {
   return (

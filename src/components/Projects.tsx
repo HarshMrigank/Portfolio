@@ -4,42 +4,25 @@ import { Button } from "@/components/ui/button";
 
 const projects = [
   {
-    title: "Concurrent Task Runner",
+    title: "HMSCC — C-like Compiler",
     description:
-      "A small-scale job scheduler for batching compute tasks with concurrency control and simple retries.",
-    tech: ["Node.js", "TypeScript", "PostgreSQL", "Docker"],
-    github: "https://github.com/HarshMrigank/concurrent-task-runner",
-    live: "",
-    image: "https://images.unsplash.com/photo-1551368678-6d5f9b4d9d4a?w=600&h=400&fit=crop",
-  },
-  {
-    title: "Realtime Collaboration (Notes)",
-    description:
-      "A collaborative notes app using operational transforms to sync edits across clients with low latency.",
-    tech: ["React", "WebSocket", "Node.js", "Redis"],
-    github: "https://github.com/HarshMrigank/realtime-notes",
-    live: "",
-    image: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=600&h=400&fit=crop",
-  },
-  {
-    title: "Algorithm Visualizer",
-    description:
-      "Interactive visualizations for classic algorithms (graphs, sorting, search) to aid learning and interviews.",
-    tech: ["TypeScript", "React", "D3"],
-    github: "https://github.com/HarshMrigank/algorithm-visualizer",
+      "A from-scratch compiler for a C-like language implementing lexical analysis, recursive-descent parsing, AST construction, semantic analysis, and C code generation. Integrated with a Node.js backend to compile and execute programs via REST APIs with controlled runtime execution.",
+    tech: ["C++", "CMake", "Node.js", "Express", "REST APIs"],
+    github: "https://github.com/HarshMrigank/HMSCC",
     live: "",
     image: "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=600&h=400&fit=crop",
   },
   {
-    title: "Placement Dashboard",
+    title: "Bahhi Khata — Expense Tracker",
     description:
-      "An internal dashboard to track coding practice, interview timelines, and system design study progress.",
-    tech: ["Next.js", "TypeScript", "Supabase"],
-    github: "https://github.com/HarshMrigank/placement-dashboard",
+      "A backend-first expense tracking application focused on clean REST API design, JWT-based authentication, and relational database modeling. Built with PostgreSQL using normalized schemas, constraints, and joins to ensure data integrity.",
+    tech: ["Node.js", "Express", "PostgreSQL", "JWT", "REST APIs"],
+    github: "https://github.com/HarshMrigank/BahhiKhata",
     live: "",
     image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?w=600&h=400&fit=crop",
   },
 ];
+
 
 const Projects = () => {
   return (
